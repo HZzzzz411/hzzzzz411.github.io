@@ -1,4 +1,4 @@
-# hzzzzz411.github.io
+# MTH113 Notes
 # **The role of statistics and the Data Analysis Process**
 ## Important Definition
 1.**Population**：entire collection of sth which information is desired
