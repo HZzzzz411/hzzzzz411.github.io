@@ -1,4 +1,5 @@
 # MTH113 Notes
+
 # **The role of statistics and the Data Analysis Process**
 ## Important Definition
 1.**Population**：entire collection of sth which information is desired
@@ -36,6 +37,7 @@
 - **Continuous Numerical Variable**:  continuous data , possible values forms an **entire interval** on the number line.
   
 - **Dotplots**：Describe the frequency distribution for **numerical data**, suitable for small numerical datasets.
+  
 
 # Collecting Data Sensibly
 
