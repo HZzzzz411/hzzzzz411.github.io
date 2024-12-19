@@ -80,3 +80,80 @@ A study is interested in how variability in x affects y, **x** is **Explanatory 
 - **Systematic Sampling**: Selecting every k-th individual in a sequence after a random start.
 - **Convenience Sampling**: Selecting individuals based on convenience, which can introduce bias.
 
+# **Graphical Methods for Describing Data**
+
+## **Displaying Categorical Data**
+### Comparative Bar Charts
+- Used to **visually compare** two or more groups.
+- Constructed **using the same set** of horizontal and vertical axes(x,y-axis).
+- use **relative frequency** rather than frequency(dealing with **different sample sizes**)
+
+### Pie Charts
+- Summarize categorical data by representing categories as **slices of a pie**.
+- The size of each slice is **proportional to** the **frequency or relative frequency**.
+- **Size**：angle of slice, $Angle = 360^\circ \times relative ~\ frequency$
+- **Most useful for illustrating proportions** of the whole data set for various categories. **Not suitable for comparing** frequencies between groups.
+
+### Segmented Bar Charts
+- **Similar to pie charts**(illustrating proportions) but easier to draw by hand.
+- Useful for comparing cumulative frequency distributions of ordered categories.
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/746fa86f-8ffa-48be-9a7a-0418ad79ed6a" width=300 /">
+</div>
+
+- Useful to compare **cumulative frequency** distributions (for **orderd** categories)，cumulative frequencies can be easily read
+
+## Displaying Numerical Data
+### Stem-and-Leaf Displays
+- An effective way to summarize numerical data.
+- Each number is split into a **stem (beginning digits)** and a **leaf (final digits)**.
+- easy to spot **outliers**(unusually small or large data value)
+- Useful for **small to moderate** data sets.
+- **Comparative Stem-and-Leaf Displays**: one group's leaves are listed to the right of the stem values and second group's are listed to the left
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/8a535b29-502b-475b-a822-fcccf25c633f" width=400 /">
+</div>
+
+### Frequency Distributions and Histograms
+- **Frequency Distribution**: A **table** showing the frequency of each value or range of values.
+- **Histogram**: A graph of the frequency distribution for numerical data.(similar to bar chart but classes are contiguous, **no gaps** between bars.)
+  - **Discrete Numerical Data**: Bars represent individual values or grouped intervals.
+  - **Continuous Numerical Data**: Data is grouped into intervals (**class intervals**).
+when class intervals are **not of equal width**,  the height of the each rectangle is given by its **density** over that interval.**(the area of the bars must be proportional to the frequency)**
+
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/1c7dfd40-dac3-437b-a078-5257cd519ff8" width=500 /">
+</div>
+
+### Histogram Shapes
+- **Unimodal**: A single peak.
+- **Bimodal**: Two peaks.
+- **Multimodal**: More than two peaks.
+- **Symmetric**: Equal tails.
+- **Skewed**: Unequal tails
+  
+     **(a).positively/right skewed**: upper(right) tail of the histogram stretches out much farther than the lower(left) tail.
+  
+     **(b).negatively skewed**: lower tail of the histogram stretches out much farther than the upper tail.  
+  
+<div align="center">
+    <img src="https://github.com/user-attachments/assets/a3874ba8-7888-4c70-8e0b-865d64973a15" width=500 /">
+</div>
+
+- **Normal:** bell shaped distributions
+
+### Cumulative Relative Frequency
+- Shows the proportion of observations **falling below a specified value**.
+- Cumulative relative frequency plot: pairs (upper endpoint of interval, cumulative relative frequency)
+
+## Displaying Bivariate Numerical Data
+### Scatter Plots
+- Used to **detect patterns and outliers** in bivariate data.
+- Each observation is a pair of numbers (x, y).
+- Aspect Ratio: Plots should be almost **square**.
+
+### Time Series Plots
+- Used to observe trends over time.
+- Observations are plotted with **time on the horizontal axis**.
+- Multiple time series can be plotted together for comparison.
